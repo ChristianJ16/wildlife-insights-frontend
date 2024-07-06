@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import AnimalInfo from './components/AnimalInfo'
+import FavoriteLists from './components/FavoriteLists'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="bg-cover bg-center min-h-screen" style={{
+            backgroundImage: `url("https://cdn.pixabay.com/photo/2018/06/30/18/37/panda-3508116_1280.jpg")`
+        }}>
+        <Router>
+            <Routes>
+                <Route path="/" element={<AnimalInfo />} />
+                <Route path="/favorites" element={<FavoriteLists />} />
+            </Routes>
+        </Router>
+        </div>
+    )
 }
 
-export default App;
+export default App
