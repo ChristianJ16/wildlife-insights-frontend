@@ -51,6 +51,9 @@ Heroku URl:
 <img src="https://media.git.generalassemb.ly/user/51699/files/bb8523c4-7ad1-4910-8d9d-28e8c57ac483" alt="Homepage Wireframe" height="300">
 <img src="https://media.git.generalassemb.ly/user/51699/files/c8a90417-40d4-4675-ae5e-778f17fb9f85" alt="Modal Wireframe" height="300">
 
+# API
+ - https://rapidapi.com/apininjas/api/animals-by-api-ninjas
+
 #
 
 # Instructions
