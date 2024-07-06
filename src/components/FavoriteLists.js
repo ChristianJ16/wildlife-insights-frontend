@@ -96,7 +96,7 @@ const FavoriteLists = () => {
     return (
         <div>
             <Header />
-            <div className="flex justify-center">
+            <div className="flex flex-col sm:flex-row items-center justify-center mb-4 space-y-2 sm:space-y-0 sm:space-x-2 w-full max-w-lg mx-auto">
                 <div className="w-full max-w-3xl p-4">
                     <h1 className="text-5xl font-bold mb-4 mt-40 text-center text-white" style={{
                 textShadow: '0 0 10px black'
@@ -112,7 +112,7 @@ const FavoriteLists = () => {
                         </button>
                     </div>
                     {creatingList && (
-                        <div className="flex justify-center mb-4">
+                        <div className="flex flex-col sm:flex-row items-center justify-center mb-4 space-y-2 sm:space-y-0 sm:space-x-2 w-full max-w-lg mx-auto">
                             <input
                                 type="text"
                                 value={newListName}
@@ -189,7 +189,7 @@ const FavoriteLists = () => {
                         ))}
                     </ul>
                     {selectedList && editMode && (
-                        <form onSubmit={handleEditSubmit} className="mt-4 flex justify-center">
+                        <form onSubmit={handleEditSubmit} className="flex flex-col sm:flex-row items-center justify-center mb-4 mt-4 space-y-2 sm:space-y-0 sm:space-x-2 w-full max-w-lg mx-auto">
                             <input
                                 type="text"
                                 value={editListName}
