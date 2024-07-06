@@ -42,7 +42,7 @@ Netlify:
 <a href="https://wildlife-insights.netlify.app/"> Wildlife Insights</a>
 
 Heroku URl:
-<a href="https://wildlife-insights-378a5a2ba9a7.herokuapp.com/">Backend URL</a>
+<a href="https://wildlife-insights-378a5a2ba9a7.herokuapp.com/api/favorite-lists/">Backend URL</a>
 
 
 #
