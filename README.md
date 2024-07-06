@@ -58,7 +58,7 @@ Heroku URl:
 
 # Instructions
 
-  - Click the Netlify Link above
+  - Click the Netlify Link above (Works on computer or mobile)
   - Search any animal you'd like or click the random button to make a search
   - Go to the favorites page and create a new list
   - Go back to the search and add any animal you look up to your list
